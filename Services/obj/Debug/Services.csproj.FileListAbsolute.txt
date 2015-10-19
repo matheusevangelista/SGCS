@@ -1,0 +1,14 @@
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\bin\Debug\Services.dll.config
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\bin\Debug\Services.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\bin\Debug\Services.pdb
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\bin\Debug\Business.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\bin\Debug\EntityFramework.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\bin\Debug\Business.pdb
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\bin\Debug\EntityFramework.xml
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.pdb
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.Migrations.InitialCreate.resources
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.csproj.GenerateResource.Cache

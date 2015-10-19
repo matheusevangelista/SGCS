@@ -1,0 +1,9 @@
+C:\Users\matheus.evangelista\dotnet\SGCS\Business\bin\Debug\Business.dll.config
+C:\Users\matheus.evangelista\dotnet\SGCS\Business\bin\Debug\Business.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Business\bin\Debug\Business.pdb
+C:\Users\matheus.evangelista\dotnet\SGCS\Business\bin\Debug\EntityFramework.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Business\bin\Debug\EntityFramework.xml
+C:\Users\matheus.evangelista\dotnet\SGCS\Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\matheus.evangelista\dotnet\SGCS\Business\obj\Debug\Business.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Business\obj\Debug\Business.pdb
