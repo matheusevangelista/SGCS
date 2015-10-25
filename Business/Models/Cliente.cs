@@ -15,36 +15,56 @@ namespace Business.Models
         [Key]
         public int Id { get; set; }
 
+        [DataType(DataType.Text)]
+        [Display(Name = "Nome")]
         public string Nome { get; set; }
 
+        [Display(Name = "CPF")]
         public string CPF { get; set; }
 
+        [Display(Name = "RG")]
         public string RG { get; set; }
 
+        [Display(Name = "Orgão Emissor")]
         public string RGOrgaoEmissor { get; set; }
 
+        [Display(Name = "Data de Emissão")]
         public DateTime RGDataEmissao { get; set; }
 
+        [Display(Name = "Data de Nascimento")]
         public DateTime DataNascimento { get; set; }
 
+        [Display(Name = "Nacionalidade")]
         public string Nacionalidade { get; set; }
 
+        [Display(Name = "Estado Civil")]
+        public EstadoCivil EstadoCivilCliente { get; set; }
+
+        [Display(Name = "Profissão")]
         public string Profissao { get; set; }
 
+        [Display(Name = "Email")]
         public string Email { get; set; }
 
+        [Display(Name = "Telefone")]
         public string Telefone { get; set; }
 
+        [Display(Name = "Logradouro")]
         public string Logradouro { get; set; }
 
+        [Display(Name = "Nº")]
         public string Numero { get; set; }
 
+        [Display(Name = "Complemento")]
         public string Complemento { get; set; }
 
+        [Display(Name = "Bairro")]
         public string Bairro { get; set; }
 
+        [Display(Name = "Cidade")]
         public string Cidade { get; set; }
 
+        [Display(Name = "Estado")]
         public string UF { get; set; }
 
 

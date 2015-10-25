@@ -7,3 +7,13 @@ C:\Users\matheus.evangelista\dotnet\SGCS\Business\bin\Debug\EntityFramework.xml
 C:\Users\matheus.evangelista\dotnet\SGCS\Business\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\matheus.evangelista\dotnet\SGCS\Business\obj\Debug\Business.dll
 C:\Users\matheus.evangelista\dotnet\SGCS\Business\obj\Debug\Business.pdb
+D:\Projetos\dotnet\SGCS\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+D:\Projetos\dotnet\SGCS\Business\obj\Debug\Business.dll
+D:\Projetos\dotnet\SGCS\Business\bin\Debug\Business.dll.config
+D:\Projetos\dotnet\SGCS\Business\bin\Debug\Business.dll
+D:\Projetos\dotnet\SGCS\Business\bin\Debug\Business.pdb
+D:\Projetos\dotnet\SGCS\Business\bin\Debug\EntityFramework.dll
+D:\Projetos\dotnet\SGCS\Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projetos\dotnet\SGCS\Business\bin\Debug\EntityFramework.xml
+D:\Projetos\dotnet\SGCS\Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projetos\dotnet\SGCS\Business\obj\Debug\Business.pdb
