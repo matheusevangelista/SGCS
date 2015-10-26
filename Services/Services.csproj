@@ -71,6 +71,10 @@
     <Compile Include="Migrations\201510251134388_addEstadoCivil.Designer.cs">
       <DependentUpon>201510251134388_addEstadoCivil.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201510262238488_adicionaEntidadeSeguradora.cs" />
+    <Compile Include="Migrations\201510262238488_adicionaEntidadeSeguradora.Designer.cs">
+      <DependentUpon>201510262238488_adicionaEntidadeSeguradora.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -90,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201510251134388_addEstadoCivil.resx">
       <DependentUpon>201510251134388_addEstadoCivil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201510262238488_adicionaEntidadeSeguradora.resx">
+      <DependentUpon>201510262238488_adicionaEntidadeSeguradora.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -13,5 +13,7 @@ namespace Services.DAL
         public SGCSContext() : base("SGCSContext") { }
 
         public DbSet<Cliente> Clientes { get; set; }
+
+        public DbSet<Seguradora> Seguradoras { get; set; }
     }
 }
