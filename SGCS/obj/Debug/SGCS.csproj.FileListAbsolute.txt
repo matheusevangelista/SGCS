@@ -112,3 +112,7 @@ D:\Projetos\dotnet\SGCS\SGCS\bin\Business.dll
 D:\Projetos\dotnet\SGCS\SGCS\bin\Services.dll
 D:\Projetos\dotnet\SGCS\SGCS\bin\Business.pdb
 D:\Projetos\dotnet\SGCS\SGCS\bin\Services.pdb
+C:\Users\matheus.evangelista\dotnet\SGCS\SGCS\bin\Business.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\SGCS\bin\Services.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\SGCS\bin\Business.pdb
+C:\Users\matheus.evangelista\dotnet\SGCS\SGCS\bin\Services.pdb
