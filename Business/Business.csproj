@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\Produto.cs" />
     <Compile Include="Models\Seguradora.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

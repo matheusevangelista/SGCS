@@ -15,5 +15,7 @@ namespace Services.DAL
         public DbSet<Cliente> Clientes { get; set; }
 
         public DbSet<Seguradora> Seguradoras { get; set; }
+
+        public DbSet<Produto> Produtos { get; set; }
     }
 }

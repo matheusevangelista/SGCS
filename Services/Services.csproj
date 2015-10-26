@@ -75,6 +75,10 @@
     <Compile Include="Migrations\201510262238488_adicionaEntidadeSeguradora.Designer.cs">
       <DependentUpon>201510262238488_adicionaEntidadeSeguradora.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201510262307022_addEntidadeProduto.cs" />
+    <Compile Include="Migrations\201510262307022_addEntidadeProduto.Designer.cs">
+      <DependentUpon>201510262307022_addEntidadeProduto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -97,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201510262238488_adicionaEntidadeSeguradora.resx">
       <DependentUpon>201510262238488_adicionaEntidadeSeguradora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201510262307022_addEntidadeProduto.resx">
+      <DependentUpon>201510262307022_addEntidadeProduto.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

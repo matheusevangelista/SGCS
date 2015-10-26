@@ -202,6 +202,7 @@
     <Compile Include="Controllers\ClientesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProdutosController.cs" />
     <Compile Include="Controllers\SeguradorasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -1010,6 +1011,11 @@
     <Content Include="Views\Seguradoras\Details.cshtml" />
     <Content Include="Views\Seguradoras\Edit.cshtml" />
     <Content Include="Views\Seguradoras\Index.cshtml" />
+    <Content Include="Views\Produtos\Create.cshtml" />
+    <Content Include="Views\Produtos\Delete.cshtml" />
+    <Content Include="Views\Produtos\Details.cshtml" />
+    <Content Include="Views\Produtos\Edit.cshtml" />
+    <Content Include="Views\Produtos\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
