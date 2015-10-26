@@ -27,3 +27,11 @@ D:\Projetos\dotnet\SGCS\Services\obj\Debug\Services.csproj.GenerateResource.Cach
 D:\Projetos\dotnet\SGCS\Services\obj\Debug\Services.dll
 D:\Projetos\dotnet\SGCS\Services\obj\Debug\Services.pdb
 D:\Projetos\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addEstadoCivil.resources
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\bin\Debug\Microsoft.CSharp.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\bin\Debug\System.Data.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\bin\Debug\System.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\bin\Debug\System.Xml.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\bin\Debug\System.Xml.Linq.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addEstadoCivil.resources

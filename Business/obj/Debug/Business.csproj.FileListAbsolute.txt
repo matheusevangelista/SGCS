@@ -18,3 +18,10 @@ D:\Projetos\dotnet\SGCS\Business\bin\Debug\EntityFramework.xml
 D:\Projetos\dotnet\SGCS\Business\bin\Debug\EntityFramework.SqlServer.xml
 D:\Projetos\dotnet\SGCS\Business\obj\Debug\Business.pdb
 C:\Users\matheus.evangelista\dotnet\SGCS\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\matheus.evangelista\dotnet\SGCS\Business\bin\Debug\Microsoft.CSharp.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Business\bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Business\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Business\bin\Debug\System.Data.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Business\bin\Debug\System.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Business\bin\Debug\System.Xml.dll
+C:\Users\matheus.evangelista\dotnet\SGCS\Business\bin\Debug\System.Xml.Linq.dll

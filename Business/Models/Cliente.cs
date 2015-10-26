@@ -29,9 +29,13 @@ namespace Business.Models
         public string RGOrgaoEmissor { get; set; }
 
         [Display(Name = "Data de Emissão")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime RGDataEmissao { get; set; }
 
         [Display(Name = "Data de Nascimento")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime DataNascimento { get; set; }
 
         [Display(Name = "Nacionalidade")]
