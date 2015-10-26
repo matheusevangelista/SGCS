@@ -20,5 +20,46 @@
 input,
 select,
 textarea {
-    max-width: 280px;
+    max-width: 500px;
+}
+
+input[type='submit']
+{
+    color: #fff;
+    background-color: #26B99A;
+    border-color: #4cae4c;
+    margin-left: 432px;
+}
+
+input[type='submit']:hover 
+{
+    background-color: #26B99A;
+    border-color: #4cae4c;
+}
+
+div[role=main] a
+{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: #1A82C3;
+    border-color: #1A82C3;
+    border-radius: 3px;
+}
+
+div[role=main] h4
+{
+    font-size: 16px;
 }
