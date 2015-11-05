@@ -1006,16 +1006,16 @@
     <Content Include="Views\Clientes\Details.cshtml" />
     <Content Include="Views\Clientes\Edit.cshtml" />
     <Content Include="Views\Clientes\Index.cshtml" />
-    <Content Include="Views\Seguradoras\Create.cshtml" />
-    <Content Include="Views\Seguradoras\Delete.cshtml" />
-    <Content Include="Views\Seguradoras\Details.cshtml" />
-    <Content Include="Views\Seguradoras\Edit.cshtml" />
-    <Content Include="Views\Seguradoras\Index.cshtml" />
     <Content Include="Views\Produtos\Create.cshtml" />
     <Content Include="Views\Produtos\Delete.cshtml" />
     <Content Include="Views\Produtos\Details.cshtml" />
     <Content Include="Views\Produtos\Edit.cshtml" />
     <Content Include="Views\Produtos\Index.cshtml" />
+    <Content Include="Views\Seguradoras\Create.cshtml" />
+    <Content Include="Views\Seguradoras\Delete.cshtml" />
+    <Content Include="Views\Seguradoras\Details.cshtml" />
+    <Content Include="Views\Seguradoras\Edit.cshtml" />
+    <Content Include="Views\Seguradoras\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -15,13 +15,13 @@ namespace SGCS.Controllers
     {
         private SGCSContext db = new SGCSContext();
 
-        // GET: /Produtos/
+        // GET: Produtos
         public ActionResult Index()
         {
             return View(db.Produtos.ToList());
         }
 
-        // GET: /Produtos/Details/5
+        // GET: Produtos/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -36,18 +36,18 @@ namespace SGCS.Controllers
             return View(produto);
         }
 
-        // GET: /Produtos/Create
+        // GET: Produtos/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: /Produtos/Create
+        // POST: Produtos/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include="Id,Nome")] Produto produto)
+        public ActionResult Create([Bind(Include = "Id,Nome")] Produto produto)
         {
             if (ModelState.IsValid)
             {
@@ -59,7 +59,7 @@ namespace SGCS.Controllers
             return View(produto);
         }
 
-        // GET: /Produtos/Edit/5
+        // GET: Produtos/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -74,12 +74,12 @@ namespace SGCS.Controllers
             return View(produto);
         }
 
-        // POST: /Produtos/Edit/5
+        // POST: Produtos/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include="Id,Nome")] Produto produto)
+        public ActionResult Edit([Bind(Include = "Id,Nome")] Produto produto)
         {
             if (ModelState.IsValid)
             {
@@ -90,7 +90,7 @@ namespace SGCS.Controllers
             return View(produto);
         }
 
-        // GET: /Produtos/Delete/5
+        // GET: Produtos/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -105,7 +105,7 @@ namespace SGCS.Controllers
             return View(produto);
         }
 
-        // POST: /Produtos/Delete/5
+        // POST: Produtos/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)

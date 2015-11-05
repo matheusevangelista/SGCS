@@ -15,13 +15,13 @@ namespace SGCS.Controllers
     {
         private SGCSContext db = new SGCSContext();
 
-        // GET: /Seguradoras/
+        // GET: Seguradoras
         public ActionResult Index()
         {
             return View(db.Seguradoras.ToList());
         }
 
-        // GET: /Seguradoras/Details/5
+        // GET: Seguradoras/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -36,18 +36,18 @@ namespace SGCS.Controllers
             return View(seguradora);
         }
 
-        // GET: /Seguradoras/Create
+        // GET: Seguradoras/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: /Seguradoras/Create
+        // POST: Seguradoras/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include="Id,Nome,Descricao")] Seguradora seguradora)
+        public ActionResult Create([Bind(Include = "Id,Nome,Descricao")] Seguradora seguradora)
         {
             if (ModelState.IsValid)
             {
@@ -59,7 +59,7 @@ namespace SGCS.Controllers
             return View(seguradora);
         }
 
-        // GET: /Seguradoras/Edit/5
+        // GET: Seguradoras/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -74,12 +74,12 @@ namespace SGCS.Controllers
             return View(seguradora);
         }
 
-        // POST: /Seguradoras/Edit/5
+        // POST: Seguradoras/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include="Id,Nome,Descricao")] Seguradora seguradora)
+        public ActionResult Edit([Bind(Include = "Id,Nome,Descricao")] Seguradora seguradora)
         {
             if (ModelState.IsValid)
             {
@@ -90,7 +90,7 @@ namespace SGCS.Controllers
             return View(seguradora);
         }
 
-        // GET: /Seguradoras/Delete/5
+        // GET: Seguradoras/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -105,7 +105,7 @@ namespace SGCS.Controllers
             return View(seguradora);
         }
 
-        // POST: /Seguradoras/Delete/5
+        // POST: Seguradoras/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
