@@ -12,6 +12,11 @@ namespace Business.Models
     [Table("Cliente")]
     public class Cliente
     {
+        public Cliente()
+        {
+            Apolices = new List<Apolice>();
+        }
+
         [Key]
         public int Id { get; set; }
 
@@ -70,6 +75,8 @@ namespace Business.Models
 
         [Display(Name = "Estado")]
         public string UF { get; set; }
+
+        public virtual ICollection<Apolice> Apolices { get; set; }
 
 
         public enum EstadoCivil

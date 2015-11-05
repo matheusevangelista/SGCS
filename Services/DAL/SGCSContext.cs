@@ -17,5 +17,18 @@ namespace Services.DAL
         public DbSet<Seguradora> Seguradoras { get; set; }
 
         public DbSet<Produto> Produtos { get; set; }
+
+        public DbSet<Apolice> Apolices { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            //modelBuilder.Entity<Apolice>()
+            //            .HasRequired(a => a.Seguradora)
+            //            .WithMany(s => s.Apolices)
+            //            .WillCascadeOnDelete(false);
+                        
+        }
     }
 }

@@ -199,6 +199,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ApolicesController.cs" />
     <Compile Include="Controllers\ClientesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -1016,6 +1017,11 @@
     <Content Include="Views\Seguradoras\Details.cshtml" />
     <Content Include="Views\Seguradoras\Edit.cshtml" />
     <Content Include="Views\Seguradoras\Index.cshtml" />
+    <Content Include="Views\Apolices\Create.cshtml" />
+    <Content Include="Views\Apolices\Delete.cshtml" />
+    <Content Include="Views\Apolices\Details.cshtml" />
+    <Content Include="Views\Apolices\Edit.cshtml" />
+    <Content Include="Views\Apolices\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

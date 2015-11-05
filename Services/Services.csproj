@@ -79,6 +79,14 @@
     <Compile Include="Migrations\201510262307022_addEntidadeProduto.Designer.cs">
       <DependentUpon>201510262307022_addEntidadeProduto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511051656474_addRelashionShipSeguradora.cs" />
+    <Compile Include="Migrations\201511051656474_addRelashionShipSeguradora.Designer.cs">
+      <DependentUpon>201511051656474_addRelashionShipSeguradora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511051734390_addMoreAtributes.cs" />
+    <Compile Include="Migrations\201511051734390_addMoreAtributes.Designer.cs">
+      <DependentUpon>201511051734390_addMoreAtributes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -104,6 +112,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201510262307022_addEntidadeProduto.resx">
       <DependentUpon>201510262307022_addEntidadeProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511051656474_addRelashionShipSeguradora.resx">
+      <DependentUpon>201511051656474_addRelashionShipSeguradora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511051734390_addMoreAtributes.resx">
+      <DependentUpon>201511051734390_addMoreAtributes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

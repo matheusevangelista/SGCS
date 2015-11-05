@@ -61,3 +61,5 @@ C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.adicionaEntidadeSeguradora
 C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addEntidadeProduto.resources
 C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.Migrations.adicionaEntidadeSeguradora.resources
 C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addEntidadeProduto.resources
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addRelashionShipSeguradora.resources
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addMoreAtributes.resources

@@ -11,6 +11,11 @@ namespace Business.Models
     [Table("Seguradora")]
     public class Seguradora
     {
+        public Seguradora()
+        {
+            Apolices = new List<Apolice>();
+        }
+
         [Key]
         public int Id { get; set; }
 
@@ -21,6 +26,8 @@ namespace Business.Models
         [DataType(DataType.MultilineText)]
         [Display(Name = "Descrição")]
         public string Descricao { get; set; }
+
+        public virtual ICollection<Apolice> Apolices { get; set; }
 
     }
 }
