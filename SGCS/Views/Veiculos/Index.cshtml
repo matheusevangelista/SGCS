@@ -13,10 +13,28 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Nome)
+            @Html.DisplayNameFor(model => model.Modelo)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Ano)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Placa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Combustivel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tipo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Renavam)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Chassis)
         </th>
         <th></th>
     </tr>
@@ -24,10 +42,28 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.Nome)
+            @Html.DisplayFor(modelItem => item.Modelo)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Ano)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Placa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Combustivel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tipo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Renavam)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Chassis)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |

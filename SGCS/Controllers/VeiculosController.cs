@@ -47,7 +47,7 @@ namespace SGCS.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Nome,Ano")] Veiculo veiculo)
+        public ActionResult Create([Bind(Include = "Id,Modelo,Ano,Cor,Placa,Combustivel,Tipo,Renavam,Chassis")] Veiculo veiculo)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +79,7 @@ namespace SGCS.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Nome,Ano")] Veiculo veiculo)
+        public ActionResult Edit([Bind(Include = "Id,Modelo,Ano,Cor,Placa,Combustivel,Tipo,Renavam,Chassis")] Veiculo veiculo)
         {
             if (ModelState.IsValid)
             {

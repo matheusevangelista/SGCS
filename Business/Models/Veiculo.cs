@@ -14,13 +14,43 @@ namespace Business.Models
         [Key]
         public int Id { get; set; }
 
-        [DataType(DataType.Text)]
+       /* [DataType(DataType.Text)]
         [Display(Name = "Nome")]
-        public string Nome { get; set; }
+        public string Nome { get; set; }*/
+
+        [DataType(DataType.Text)]
+        [Display(Name = "Modelo")]
+        public string Modelo { get; set; }
 
         [Display(Name = "Ano")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy}", ApplyFormatInEditMode = true)]
         public DateTime Ano { get; set; }
+
+        [DataType(DataType.Text)]
+        [Display(Name = "Cor")]
+        public string Cor { get; set; }
+
+        [DataType(DataType.Text)]
+        [Display(Name = "Placa")]
+        public string Placa { get; set; }
+
+        [DataType(DataType.Text)]
+        [Display(Name = "Combustivel")]
+        public string Combustivel { get; set; }
+
+        [DataType(DataType.Text)]
+        [Display(Name = "Tipo")]
+        public string Tipo { get; set; }
+
+        [DataType(DataType.Text)]
+        [Display(Name = "Renavam")]
+        public string Renavam{ get; set; }
+
+        [DataType(DataType.Text)]
+        [Display(Name = "Chassis")]
+        public string Chassis { get; set; }
+
+
     }
 }
