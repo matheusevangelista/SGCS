@@ -20,6 +20,8 @@ namespace Services.DAL
 
         public DbSet<Apolice> Apolices { get; set; }
 
+        public DbSet<Veiculo> Veiculos { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

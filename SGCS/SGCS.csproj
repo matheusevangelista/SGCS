@@ -219,6 +219,7 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProdutosController.cs" />
     <Compile Include="Controllers\SeguradorasController.cs" />
+    <Compile Include="Controllers\VeiculosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1036,6 +1037,11 @@
     <Content Include="Views\Apolices\Details.cshtml" />
     <Content Include="Views\Apolices\Edit.cshtml" />
     <Content Include="Views\Apolices\Index.cshtml" />
+    <Content Include="Views\Veiculos\Create.cshtml" />
+    <Content Include="Views\Veiculos\Delete.cshtml" />
+    <Content Include="Views\Veiculos\Details.cshtml" />
+    <Content Include="Views\Veiculos\Edit.cshtml" />
+    <Content Include="Views\Veiculos\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
