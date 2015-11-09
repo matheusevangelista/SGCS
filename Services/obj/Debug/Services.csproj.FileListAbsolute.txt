@@ -91,3 +91,4 @@ C:\SGCS\Services\obj\Debug\Services.dll
 C:\SGCS\Services\obj\Debug\Services.pdb
 C:\SGCS\Services\obj\Debug\Services.Migrations.entidadeVeiculos.resources
 C:\SGCS\Services\obj\Debug\Services.Migrations.entidadeVeiculos1.resources
+C:\SGCS\Services\obj\Debug\Services.Migrations.entidadeFilial.resources

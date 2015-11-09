@@ -22,6 +22,8 @@ namespace Services.DAL
 
         public DbSet<Veiculo> Veiculos { get; set; }
 
+        public DbSet<Filial> Filial { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
