@@ -1033,11 +1033,6 @@
     <Content Include="Views\Seguradoras\Details.cshtml" />
     <Content Include="Views\Seguradoras\Edit.cshtml" />
     <Content Include="Views\Seguradoras\Index.cshtml" />
-    <Content Include="Views\Apolices\Create.cshtml" />
-    <Content Include="Views\Apolices\Delete.cshtml" />
-    <Content Include="Views\Apolices\Details.cshtml" />
-    <Content Include="Views\Apolices\Edit.cshtml" />
-    <Content Include="Views\Apolices\Index.cshtml" />
     <Content Include="Views\Veiculos\Create.cshtml" />
     <Content Include="Views\Veiculos\Delete.cshtml" />
     <Content Include="Views\Veiculos\Details.cshtml" />
@@ -1048,6 +1043,11 @@
     <Content Include="Views\Filial\Details.cshtml" />
     <Content Include="Views\Filial\Edit.cshtml" />
     <Content Include="Views\Filial\Index.cshtml" />
+    <Content Include="Views\Apolices\Create.cshtml" />
+    <Content Include="Views\Apolices\Delete.cshtml" />
+    <Content Include="Views\Apolices\Details.cshtml" />
+    <Content Include="Views\Apolices\Edit.cshtml" />
+    <Content Include="Views\Apolices\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

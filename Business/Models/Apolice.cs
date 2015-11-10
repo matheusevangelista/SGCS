@@ -33,6 +33,11 @@ namespace Business.Models
         [Display(Name = "Indicação")]
         public string Indicacao { get; set; }
 
+        public int FilialId { get; set; }
+
+        [ForeignKey("FilialId")]
+        public virtual Filial Filial { get; set; }
+
         [Display(Name = "Situação da Apólice")]
         public SituacaoApolice SituacaoDaApolice { get; set; }
 

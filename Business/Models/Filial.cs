@@ -11,6 +11,10 @@ namespace Business.Models
     [Table("Filial")]
     public class Filial
     {
+        public Filial()
+        {
+            Apolices = new List<Apolice>();
+        }
         [Key]
         public int Id { get; set; }
 
@@ -46,5 +50,6 @@ namespace Business.Models
         [Display(Name = "Telefone")]
         public string Telefone { get; set; }
 
+        public virtual ICollection<Apolice> Apolices { get; set; }
     }
 }

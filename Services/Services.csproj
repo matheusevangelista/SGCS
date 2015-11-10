@@ -99,6 +99,10 @@
     <Compile Include="Migrations\201511092311028_entidadeFilial.Designer.cs">
       <DependentUpon>201511092311028_entidadeFilial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511102157052_addAttrFilial.cs" />
+    <Compile Include="Migrations\201511102157052_addAttrFilial.Designer.cs">
+      <DependentUpon>201511102157052_addAttrFilial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -139,6 +143,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201511092311028_entidadeFilial.resx">
       <DependentUpon>201511092311028_entidadeFilial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511102157052_addAttrFilial.resx">
+      <DependentUpon>201511102157052_addAttrFilial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

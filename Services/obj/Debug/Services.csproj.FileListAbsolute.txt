@@ -92,3 +92,9 @@ C:\SGCS\Services\obj\Debug\Services.pdb
 C:\SGCS\Services\obj\Debug\Services.Migrations.entidadeVeiculos.resources
 C:\SGCS\Services\obj\Debug\Services.Migrations.entidadeVeiculos1.resources
 C:\SGCS\Services\obj\Debug\Services.Migrations.entidadeFilial.resources
+C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addRelashionShipSeguradora.resources
+C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addMoreAtributes.resources
+C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.entidadeVeiculos.resources
+C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.entidadeVeiculos1.resources
+C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.entidadeFilial.resources
+C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addAttrFilial.resources

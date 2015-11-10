@@ -306,3 +306,9 @@ C:\SGCS\SGCS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\SGCS\SGCS\obj\Debug\SGCS.csprojResolveAssemblyReference.cache
 C:\SGCS\SGCS\obj\Debug\SGCS.dll
 C:\SGCS\SGCS\obj\Debug\SGCS.pdb
+C:\dotnet\SGCS\SGCS\bin\System.Net.Http.Formatting.dll
+C:\dotnet\SGCS\SGCS\bin\System.Web.Http.dll
+C:\dotnet\SGCS\SGCS\bin\System.Web.Http.WebHost.dll
+C:\dotnet\SGCS\SGCS\bin\System.Net.Http.Formatting.xml
+C:\dotnet\SGCS\SGCS\bin\System.Web.Http.xml
+C:\dotnet\SGCS\SGCS\bin\System.Web.Http.WebHost.xml
