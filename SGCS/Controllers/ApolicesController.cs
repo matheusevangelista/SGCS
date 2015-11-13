@@ -18,7 +18,7 @@ namespace SGCS.Controllers
         // GET: Apolices
         public ActionResult Index()
         {
-            var apolices = db.Apolices.Include(a => a.Cliente).Include(a => a.Filial).Include(a => a.Produto).Include(a => a.Seguradora);
+            var apolices = db.Apolices.Include(a => a.Cliente).Include(a => a.Filial).Include(a => a.Produto).Include(a => a.Proposta).Include(a => a.Seguradora);
             return View(apolices.ToList());
         }
 
@@ -41,8 +41,9 @@ namespace SGCS.Controllers
         public ActionResult Create()
         {
             ViewBag.ClienteId = new SelectList(db.Clientes, "Id", "Nome");
-            ViewBag.FilialId = new SelectList(db.Filial, "Id", "Nome");
+            ViewBag.FilialId = new SelectList(db.Filiais, "Id", "Nome");
             ViewBag.ProdutoId = new SelectList(db.Produtos, "Id", "Nome");
+            ViewBag.PropostaId = new SelectList(db.Propostas, "Id", "Id");
             ViewBag.SeguradoraId = new SelectList(db.Seguradoras, "Id", "Nome");
             return View();
         }
@@ -52,7 +53,7 @@ namespace SGCS.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,SeguradoraId,ProdutoId,ClienteId,Indicacao,FilialId,SituacaoDaApolice")] Apolice apolice)
+        public ActionResult Create([Bind(Include = "Id,PropostaId,SeguradoraId,ProdutoId,ClienteId,Indicacao,FilialId,SituacaoDaApolice")] Apolice apolice)
         {
             if (ModelState.IsValid)
             {
@@ -62,8 +63,9 @@ namespace SGCS.Controllers
             }
 
             ViewBag.ClienteId = new SelectList(db.Clientes, "Id", "Nome", apolice.ClienteId);
-            ViewBag.FilialId = new SelectList(db.Filial, "Id", "Nome", apolice.FilialId);
+            ViewBag.FilialId = new SelectList(db.Filiais, "Id", "Nome", apolice.FilialId);
             ViewBag.ProdutoId = new SelectList(db.Produtos, "Id", "Nome", apolice.ProdutoId);
+            ViewBag.PropostaId = new SelectList(db.Propostas, "Id", "Id", apolice.PropostaId);
             ViewBag.SeguradoraId = new SelectList(db.Seguradoras, "Id", "Nome", apolice.SeguradoraId);
             return View(apolice);
         }
@@ -81,8 +83,9 @@ namespace SGCS.Controllers
                 return HttpNotFound();
             }
             ViewBag.ClienteId = new SelectList(db.Clientes, "Id", "Nome", apolice.ClienteId);
-            ViewBag.FilialId = new SelectList(db.Filial, "Id", "Nome", apolice.FilialId);
+            ViewBag.FilialId = new SelectList(db.Filiais, "Id", "Nome", apolice.FilialId);
             ViewBag.ProdutoId = new SelectList(db.Produtos, "Id", "Nome", apolice.ProdutoId);
+            ViewBag.PropostaId = new SelectList(db.Propostas, "Id", "Id", apolice.PropostaId);
             ViewBag.SeguradoraId = new SelectList(db.Seguradoras, "Id", "Nome", apolice.SeguradoraId);
             return View(apolice);
         }
@@ -92,7 +95,7 @@ namespace SGCS.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,SeguradoraId,ProdutoId,ClienteId,Indicacao,FilialId,SituacaoDaApolice")] Apolice apolice)
+        public ActionResult Edit([Bind(Include = "Id,PropostaId,SeguradoraId,ProdutoId,ClienteId,Indicacao,FilialId,SituacaoDaApolice")] Apolice apolice)
         {
             if (ModelState.IsValid)
             {
@@ -101,8 +104,9 @@ namespace SGCS.Controllers
                 return RedirectToAction("Index");
             }
             ViewBag.ClienteId = new SelectList(db.Clientes, "Id", "Nome", apolice.ClienteId);
-            ViewBag.FilialId = new SelectList(db.Filial, "Id", "Nome", apolice.FilialId);
+            ViewBag.FilialId = new SelectList(db.Filiais, "Id", "Nome", apolice.FilialId);
             ViewBag.ProdutoId = new SelectList(db.Produtos, "Id", "Nome", apolice.ProdutoId);
+            ViewBag.PropostaId = new SelectList(db.Propostas, "Id", "Id", apolice.PropostaId);
             ViewBag.SeguradoraId = new SelectList(db.Seguradoras, "Id", "Nome", apolice.SeguradoraId);
             return View(apolice);
         }

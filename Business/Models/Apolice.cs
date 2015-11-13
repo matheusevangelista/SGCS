@@ -15,6 +15,11 @@ namespace Business.Models
         [Key]
         public int Id { get; set; }
 
+        public int PropostaId { get; set; }
+
+        [ForeignKey("PropostaId")]
+        public virtual Proposta Proposta { get; set; }
+
         public int SeguradoraId { get; set; }
 
         [ForeignKey("SeguradoraId")]

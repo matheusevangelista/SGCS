@@ -19,6 +19,14 @@
         @Html.HiddenFor(model => model.Id)
 
         <div class="form-group">
+            @Html.LabelFor(model => model.PropostaId, "PropostaId", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("PropostaId", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.PropostaId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
             @Html.LabelFor(model => model.SeguradoraId, "SeguradoraId", htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.DropDownList("SeguradoraId", null, htmlAttributes: new { @class = "form-control" })

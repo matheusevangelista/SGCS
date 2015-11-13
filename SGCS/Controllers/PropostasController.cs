@@ -11,107 +11,107 @@ using Services.DAL;
 
 namespace SGCS.Controllers
 {
-    public class FilialController : Controller
+    public class PropostasController : Controller
     {
         private SGCSContext db = new SGCSContext();
 
-        // GET: Filial
+        // GET: Propostas
         public ActionResult Index()
         {
-            return View(db.Filiais.ToList());
+            return View(db.Propostas.ToList());
         }
 
-        // GET: Filial/Details/5
+        // GET: Propostas/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Filial filial = db.Filiais.Find(id);
-            if (filial == null)
+            Proposta proposta = db.Propostas.Find(id);
+            if (proposta == null)
             {
                 return HttpNotFound();
             }
-            return View(filial);
+            return View(proposta);
         }
 
-        // GET: Filial/Create
+        // GET: Propostas/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Filial/Create
+        // POST: Propostas/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Nome,Rua,Numero,Bairro,Cidade,Cep,Estado,Telefone")] Filial filial)
+        public ActionResult Create([Bind(Include = "Id,DataInicioVigencia,DataFimVigencia,NumeroEndosso,DataEmissaoApolice,DataBaixaProposta,NumeroPropostaSeguradora,Entrada,NumeroPrestacoes,ValorPrestacoes,DataPrimeiroVencimento")] Proposta proposta)
         {
             if (ModelState.IsValid)
             {
-                db.Filiais.Add(filial);
+                db.Propostas.Add(proposta);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(filial);
+            return View(proposta);
         }
 
-        // GET: Filial/Edit/5
+        // GET: Propostas/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Filial filial = db.Filiais.Find(id);
-            if (filial == null)
+            Proposta proposta = db.Propostas.Find(id);
+            if (proposta == null)
             {
                 return HttpNotFound();
             }
-            return View(filial);
+            return View(proposta);
         }
 
-        // POST: Filial/Edit/5
+        // POST: Propostas/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Nome,Rua,Numero,Bairro,Cidade,Cep,Estado,Telefone")] Filial filial)
+        public ActionResult Edit([Bind(Include = "Id,DataInicioVigencia,DataFimVigencia,NumeroEndosso,DataEmissaoApolice,DataBaixaProposta,NumeroPropostaSeguradora,Entrada,NumeroPrestacoes,ValorPrestacoes,DataPrimeiroVencimento")] Proposta proposta)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(filial).State = EntityState.Modified;
+                db.Entry(proposta).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(filial);
+            return View(proposta);
         }
 
-        // GET: Filial/Delete/5
+        // GET: Propostas/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Filial filial = db.Filiais.Find(id);
-            if (filial == null)
+            Proposta proposta = db.Propostas.Find(id);
+            if (proposta == null)
             {
                 return HttpNotFound();
             }
-            return View(filial);
+            return View(proposta);
         }
 
-        // POST: Filial/Delete/5
+        // POST: Propostas/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Filial filial = db.Filiais.Find(id);
-            db.Filiais.Remove(filial);
+            Proposta proposta = db.Propostas.Find(id);
+            db.Propostas.Remove(proposta);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

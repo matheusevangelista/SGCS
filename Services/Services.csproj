@@ -103,6 +103,14 @@
     <Compile Include="Migrations\201511102157052_addAttrFilial.Designer.cs">
       <DependentUpon>201511102157052_addAttrFilial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511131857341_addPropostaInApolice.cs" />
+    <Compile Include="Migrations\201511131857341_addPropostaInApolice.Designer.cs">
+      <DependentUpon>201511131857341_addPropostaInApolice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511131909389_changeTypeAttr.cs" />
+    <Compile Include="Migrations\201511131909389_changeTypeAttr.Designer.cs">
+      <DependentUpon>201511131909389_changeTypeAttr.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -146,6 +154,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201511102157052_addAttrFilial.resx">
       <DependentUpon>201511102157052_addAttrFilial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511131857341_addPropostaInApolice.resx">
+      <DependentUpon>201511131857341_addPropostaInApolice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511131909389_changeTypeAttr.resx">
+      <DependentUpon>201511131909389_changeTypeAttr.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

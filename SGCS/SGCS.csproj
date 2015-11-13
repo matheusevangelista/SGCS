@@ -219,6 +219,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProdutosController.cs" />
+    <Compile Include="Controllers\PropostasController.cs" />
     <Compile Include="Controllers\SeguradorasController.cs" />
     <Compile Include="Controllers\VeiculosController.cs" />
     <Compile Include="Global.asax.cs">
@@ -1048,6 +1049,11 @@
     <Content Include="Views\Apolices\Details.cshtml" />
     <Content Include="Views\Apolices\Edit.cshtml" />
     <Content Include="Views\Apolices\Index.cshtml" />
+    <Content Include="Views\Propostas\Create.cshtml" />
+    <Content Include="Views\Propostas\Delete.cshtml" />
+    <Content Include="Views\Propostas\Details.cshtml" />
+    <Content Include="Views\Propostas\Edit.cshtml" />
+    <Content Include="Views\Propostas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

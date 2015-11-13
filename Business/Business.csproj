@@ -66,6 +66,7 @@
     <Compile Include="Models\Filial.cs" />
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\Produto.cs" />
+    <Compile Include="Models\Proposta.cs" />
     <Compile Include="Models\Seguradora.cs" />
     <Compile Include="Models\Veiculo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

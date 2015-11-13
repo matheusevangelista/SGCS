@@ -22,7 +22,9 @@ namespace Services.DAL
 
         public DbSet<Veiculo> Veiculos { get; set; }
 
-        public DbSet<Filial> Filial { get; set; }
+        public DbSet<Filial> Filiais { get; set; }
+
+        public DbSet<Proposta> Propostas { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
