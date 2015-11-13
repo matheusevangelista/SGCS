@@ -98,3 +98,7 @@ C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.entidadeVeiculos.resources
 C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.entidadeVeiculos1.resources
 C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.entidadeFilial.resources
 C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addAttrFilial.resources
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.Migrations.entidadeVeiculos.resources
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.Migrations.entidadeVeiculos1.resources
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.Migrations.entidadeFilial.resources
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addAttrFilial.resources

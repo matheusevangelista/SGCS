@@ -15,14 +15,14 @@ namespace SGCS.Controllers
     {
         private SGCSContext db = new SGCSContext();
 
-        // GET: /Apolices/
+        // GET: Apolices
         public ActionResult Index()
         {
             var apolices = db.Apolices.Include(a => a.Cliente).Include(a => a.Filial).Include(a => a.Produto).Include(a => a.Seguradora);
             return View(apolices.ToList());
         }
 
-        // GET: /Apolices/Details/5
+        // GET: Apolices/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -37,7 +37,7 @@ namespace SGCS.Controllers
             return View(apolice);
         }
 
-        // GET: /Apolices/Create
+        // GET: Apolices/Create
         public ActionResult Create()
         {
             ViewBag.ClienteId = new SelectList(db.Clientes, "Id", "Nome");
@@ -47,12 +47,12 @@ namespace SGCS.Controllers
             return View();
         }
 
-        // POST: /Apolices/Create
+        // POST: Apolices/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include="Id,SeguradoraId,ProdutoId,ClienteId,Indicacao,FilialId,SituacaoDaApolice")] Apolice apolice)
+        public ActionResult Create([Bind(Include = "Id,SeguradoraId,ProdutoId,ClienteId,Indicacao,FilialId,SituacaoDaApolice")] Apolice apolice)
         {
             if (ModelState.IsValid)
             {
@@ -68,7 +68,7 @@ namespace SGCS.Controllers
             return View(apolice);
         }
 
-        // GET: /Apolices/Edit/5
+        // GET: Apolices/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -87,12 +87,12 @@ namespace SGCS.Controllers
             return View(apolice);
         }
 
-        // POST: /Apolices/Edit/5
+        // POST: Apolices/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include="Id,SeguradoraId,ProdutoId,ClienteId,Indicacao,FilialId,SituacaoDaApolice")] Apolice apolice)
+        public ActionResult Edit([Bind(Include = "Id,SeguradoraId,ProdutoId,ClienteId,Indicacao,FilialId,SituacaoDaApolice")] Apolice apolice)
         {
             if (ModelState.IsValid)
             {
@@ -107,7 +107,7 @@ namespace SGCS.Controllers
             return View(apolice);
         }
 
-        // GET: /Apolices/Delete/5
+        // GET: Apolices/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -122,7 +122,7 @@ namespace SGCS.Controllers
             return View(apolice);
         }
 
-        // POST: /Apolices/Delete/5
+        // POST: Apolices/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
