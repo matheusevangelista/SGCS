@@ -18,7 +18,8 @@ namespace SGCS.Controllers
         // GET: Propostas
         public ActionResult Index()
         {
-            return View(db.Propostas.ToList());
+            var propostas = db.Propostas.Include(p => p.Veiculo);
+            return View(propostas.ToList());
         }
 
         // GET: Propostas/Details/5
@@ -39,6 +40,7 @@ namespace SGCS.Controllers
         // GET: Propostas/Create
         public ActionResult Create()
         {
+            ViewBag.VeiculoId = new SelectList(db.Veiculos, "Id", "Modelo");
             return View();
         }
 
@@ -47,7 +49,7 @@ namespace SGCS.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,DataInicioVigencia,DataFimVigencia,NumeroEndosso,DataEmissaoApolice,DataBaixaProposta,NumeroPropostaSeguradora,Entrada,NumeroPrestacoes,ValorPrestacoes,DataPrimeiroVencimento")] Proposta proposta)
+        public ActionResult Create([Bind(Include = "Id,DataInicioVigencia,DataFimVigencia,NumeroEndosso,DataEmissaoApolice,DataBaixaProposta,NumeroPropostaSeguradora,Entrada,NumeroPrestacoes,ValorPrestacoes,DataPrimeiroVencimento,VeiculoId")] Proposta proposta)
         {
             if (ModelState.IsValid)
             {
@@ -56,6 +58,7 @@ namespace SGCS.Controllers
                 return RedirectToAction("Index");
             }
 
+            ViewBag.VeiculoId = new SelectList(db.Veiculos, "Id", "Modelo", proposta.VeiculoId);
             return View(proposta);
         }
 
@@ -71,6 +74,7 @@ namespace SGCS.Controllers
             {
                 return HttpNotFound();
             }
+            ViewBag.VeiculoId = new SelectList(db.Veiculos, "Id", "Modelo", proposta.VeiculoId);
             return View(proposta);
         }
 
@@ -79,7 +83,7 @@ namespace SGCS.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,DataInicioVigencia,DataFimVigencia,NumeroEndosso,DataEmissaoApolice,DataBaixaProposta,NumeroPropostaSeguradora,Entrada,NumeroPrestacoes,ValorPrestacoes,DataPrimeiroVencimento")] Proposta proposta)
+        public ActionResult Edit([Bind(Include = "Id,DataInicioVigencia,DataFimVigencia,NumeroEndosso,DataEmissaoApolice,DataBaixaProposta,NumeroPropostaSeguradora,Entrada,NumeroPrestacoes,ValorPrestacoes,DataPrimeiroVencimento,VeiculoId")] Proposta proposta)
         {
             if (ModelState.IsValid)
             {
@@ -87,6 +91,7 @@ namespace SGCS.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
+            ViewBag.VeiculoId = new SelectList(db.Veiculos, "Id", "Modelo", proposta.VeiculoId);
             return View(proposta);
         }
 

@@ -55,6 +55,12 @@ namespace Business.Models
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime DataPrimeiroVencimento { get; set; }
+
+
+        public int? VeiculoId { get; set; }
+
+        [ForeignKey("VeiculoId")]
+        public virtual Veiculo Veiculo { get; set; }
         
     }
 }

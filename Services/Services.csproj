@@ -111,6 +111,14 @@
     <Compile Include="Migrations\201511131909389_changeTypeAttr.Designer.cs">
       <DependentUpon>201511131909389_changeTypeAttr.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511161617153_addAttrVeiculoProposta.cs" />
+    <Compile Include="Migrations\201511161617153_addAttrVeiculoProposta.Designer.cs">
+      <DependentUpon>201511161617153_addAttrVeiculoProposta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511161621524_addAttrVeiculoProposta2.cs" />
+    <Compile Include="Migrations\201511161621524_addAttrVeiculoProposta2.Designer.cs">
+      <DependentUpon>201511161621524_addAttrVeiculoProposta2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -160,6 +168,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201511131909389_changeTypeAttr.resx">
       <DependentUpon>201511131909389_changeTypeAttr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511161617153_addAttrVeiculoProposta.resx">
+      <DependentUpon>201511161617153_addAttrVeiculoProposta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511161621524_addAttrVeiculoProposta2.resx">
+      <DependentUpon>201511161621524_addAttrVeiculoProposta2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

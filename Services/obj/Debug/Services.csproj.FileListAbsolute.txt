@@ -104,3 +104,5 @@ C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.Migrations.
 C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addAttrFilial.resources
 C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addPropostaInApolice.resources
 C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.Migrations.changeTypeAttr.resources
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addAttrVeiculoProposta.resources
+C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addAttrVeiculoProposta2.resources

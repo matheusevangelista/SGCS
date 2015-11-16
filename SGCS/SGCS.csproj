@@ -1049,6 +1049,7 @@
     <Content Include="Views\Apolices\Details.cshtml" />
     <Content Include="Views\Apolices\Edit.cshtml" />
     <Content Include="Views\Apolices\Index.cshtml" />
+    <Content Include="Views\Propostas\EditorTemplates\Veiculo.cshtml" />
     <Content Include="Views\Propostas\Create.cshtml" />
     <Content Include="Views\Propostas\Delete.cshtml" />
     <Content Include="Views\Propostas\Details.cshtml" />
