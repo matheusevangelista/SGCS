@@ -21,10 +21,22 @@ namespace SGCS.Controllers
             return "value";
         }
 
+        public class CotacaoDTO
+        {
+            public string ClienteId { get; set; }
+            public string Modelo { get; set; }
+            public string Ano { get; set; }
+            public string Tipo { get; set; }
+
+        }
+
         // POST: api/Cotacao
-        public void Post([FromBody]string value)
+        public string Post(CotacaoDTO Cotacao)
         {
             //criar logica para gerar cotação de proposta
+
+
+            return Cotacao.Modelo;
         }
 
         // PUT: api/Cotacao/5

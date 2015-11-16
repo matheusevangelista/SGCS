@@ -41,7 +41,8 @@ namespace SGCS
                       "~/Content/gentella/js/progressbar/bootstrap-progressbar.min.js",
                       "~/Content/gentella/js/nicescroll/jquery.nicescroll.min.js",
                       "~/Content/gentella/js/icheck/icheck.min.js",
-                      "~/Content/gentella/js/custom.js"));
+                      "~/Content/gentella/js/custom.js",
+                      "~/Scripts/cotacao.js"));
         }
     }
 }

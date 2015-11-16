@@ -972,6 +972,7 @@
     <Content Include="Content\gentella\js\datatables\unit_testing\templates\two_tables.php" />
     <Content Include="Content\gentella\js\maps\us-unemployment.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\cotacao.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
