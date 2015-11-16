@@ -40,8 +40,10 @@ namespace SGCS.Controllers
         // GET: Propostas/Create
         public ActionResult Create()
         {
-            ViewBag.VeiculoId = new SelectList(db.Veiculos, "Id", "Modelo");
-            return View();
+            Proposta p = new Proposta();
+            p.Veiculo = new Veiculo();
+
+            return View(p);
         }
 
         // POST: Propostas/Create
@@ -49,7 +51,7 @@ namespace SGCS.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,DataInicioVigencia,DataFimVigencia,NumeroEndosso,DataEmissaoApolice,DataBaixaProposta,NumeroPropostaSeguradora,Entrada,NumeroPrestacoes,ValorPrestacoes,DataPrimeiroVencimento,VeiculoId")] Proposta proposta)
+        public ActionResult Create(Proposta proposta)
         {
             if (ModelState.IsValid)
             {
@@ -83,15 +85,24 @@ namespace SGCS.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,DataInicioVigencia,DataFimVigencia,NumeroEndosso,DataEmissaoApolice,DataBaixaProposta,NumeroPropostaSeguradora,Entrada,NumeroPrestacoes,ValorPrestacoes,DataPrimeiroVencimento,VeiculoId")] Proposta proposta)
+        public ActionResult Edit(Proposta proposta)
         {
             if (ModelState.IsValid)
             {
+
+                if (proposta.VeiculoId == 0)
+                {
+                    db.Entry(proposta.Veiculo).State = EntityState.Added;
+                }
+                else
+                {
+                    db.Entry(proposta.Veiculo).State = EntityState.Modified;
+                }
+
                 db.Entry(proposta).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.VeiculoId = new SelectList(db.Veiculos, "Id", "Modelo", proposta.VeiculoId);
             return View(proposta);
         }
 
