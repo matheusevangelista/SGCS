@@ -43,6 +43,8 @@ namespace SGCS.Controllers
             Proposta p = new Proposta();
             p.Veiculo = new Veiculo();
 
+            ViewBag.ClienteId = new SelectList(db.Clientes, "Id", "Nome");
+
             return View(p);
         }
 
@@ -60,7 +62,7 @@ namespace SGCS.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.VeiculoId = new SelectList(db.Veiculos, "Id", "Modelo", proposta.VeiculoId);
+            ViewBag.ClienteId = new SelectList(db.Clientes, "Id", "Nome", proposta.ClienteId);
             return View(proposta);
         }
 
@@ -76,7 +78,8 @@ namespace SGCS.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.VeiculoId = new SelectList(db.Veiculos, "Id", "Modelo", proposta.VeiculoId);
+
+            ViewBag.ClienteId = new SelectList(db.Clientes, "Id", "Nome", proposta.ClienteId);
             return View(proposta);
         }
 
@@ -103,6 +106,8 @@ namespace SGCS.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
+
+            ViewBag.ClienteId = new SelectList(db.Clientes, "Id", "Nome", proposta.ClienteId);
             return View(proposta);
         }
 
