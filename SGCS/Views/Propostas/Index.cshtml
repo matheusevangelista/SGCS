@@ -13,35 +13,18 @@
 <table class="table">
     <tr>
         <th>
+            @Html.DisplayNameFor(model => model.Cliente)
+        </th>
+        <th>
             @Html.DisplayNameFor(model => model.Veiculo.Modelo)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.DataInicioVigencia)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.DataFimVigencia)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.NumeroEndosso)
-        </th>
-        <th>
             @Html.DisplayNameFor(model => model.DataEmissaoApolice)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.DataBaixaProposta)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.NumeroPropostaSeguradora)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Entrada)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.NumeroPrestacoes)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ValorPrestacoes)
-        </th>
+        
         <th>
             @Html.DisplayNameFor(model => model.DataPrimeiroVencimento)
         </th>
@@ -50,35 +33,18 @@
 
 @foreach (var item in Model) {
     <tr>
+        <th>
+            @Html.DisplayFor(modelItem => item.Cliente.Nome)
+        </th>
         <td>
             @Html.DisplayFor(modelItem => item.Veiculo.Modelo)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.DataInicioVigencia)
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.DataFimVigencia)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.NumeroEndosso)
-        </td>
+
         <td>
             @Html.DisplayFor(modelItem => item.DataEmissaoApolice)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.DataBaixaProposta)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.NumeroPropostaSeguradora)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Entrada)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.NumeroPrestacoes)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ValorPrestacoes)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.DataPrimeiroVencimento)

@@ -22,7 +22,7 @@
         <hr />
 
         <div class="form-group">
-            @Html.LabelFor(model => model.ClienteId, "ClienteId", htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.ClienteId, "Cliente", htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.DropDownList("ClienteId", null, htmlAttributes: new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.ClienteId, "", new { @class = "text-danger" })
@@ -95,7 +95,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.Entrada, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.Entrada, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.Entrada, new { htmlAttributes = new { @class = "form-control", @onchange = "calculaParcelas();" } })
                 @Html.ValidationMessageFor(model => model.Entrada, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -103,7 +103,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.NumeroPrestacoes, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.NumeroPrestacoes, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.NumeroPrestacoes, new { htmlAttributes = new { @class = "form-control", @onchange = "calculaParcelas();" } })
                 @Html.ValidationMessageFor(model => model.NumeroPrestacoes, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -126,7 +126,6 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="button" value="Cotar" class="btn btn-default" onclick="cotar();" />
                 <input type="submit" value="Create" class="btn btn-default" />
             </div>
         </div>

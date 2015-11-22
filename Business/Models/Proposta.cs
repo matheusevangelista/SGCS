@@ -56,10 +56,12 @@ namespace Business.Models
         [DataType(DataType.Currency)]
         public decimal? ValorPrestacoes { get; set; }
 
+        [Display(Name = "Data do Primeiro Vencimento")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime DataPrimeiroVencimento { get; set; }
 
+        [Display(Name = "Cliente")]
         public int? ClienteId { get; set; }
 
         [ForeignKey("ClienteId")]

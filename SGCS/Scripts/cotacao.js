@@ -11,6 +11,8 @@
 
         console.log(data);
 
+        calculaParcelas();
+
     }, 'json');
 
 }
@@ -18,4 +20,14 @@
 var calculaParcelas = function () {
 
     var valorCotacao = $("#ValorCotacao").val();
+    var entrada = $("#Entrada").val();
+    var parcelas = $("#NumeroPrestacoes").val();
+
+    var valorRestante = valorCotacao - entrada;
+
+    var valorParcelas = valorRestante / parcelas;
+
+    $("#ValorPrestacoes").val(valorParcelas.toFixed(2));
+
+
 }

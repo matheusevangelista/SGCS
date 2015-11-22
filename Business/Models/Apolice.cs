@@ -15,21 +15,25 @@ namespace Business.Models
         [Key]
         public int Id { get; set; }
 
+        [Display(Name = "Proposta")]
         public int PropostaId { get; set; }
 
         [ForeignKey("PropostaId")]
         public virtual Proposta Proposta { get; set; }
 
+        [Display(Name = "Seguradora")]
         public int SeguradoraId { get; set; }
 
         [ForeignKey("SeguradoraId")]
         public virtual Seguradora Seguradora { get; set; }
 
+        [Display(Name = "Produto")]
         public int ProdutoId { get; set; }
 
         [ForeignKey("ProdutoId")]
         public virtual Produto Produto { get; set; }
 
+        [Display(Name = "Cliente")]
         public int ClienteId { get; set; }
 
         [ForeignKey("ClienteId")]
@@ -38,6 +42,7 @@ namespace Business.Models
         [Display(Name = "Indicação")]
         public string Indicacao { get; set; }
 
+        [Display(Name = "Filial")]
         public int FilialId { get; set; }
 
         [ForeignKey("FilialId")]
