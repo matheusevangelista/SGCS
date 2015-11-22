@@ -41,6 +41,10 @@ namespace Business.Models
         [Display(Name = "Número da Proposta na Seguradora")]
         public int NumeroPropostaSeguradora { get; set; }
 
+        [Display(Name = "Valor da Cotação (Fornecido pela Seguradora)")]
+        [DataType(DataType.Currency)]
+        public decimal? ValorCotacao { get; set; }
+
         [Display(Name = "Valor da Entrada")]
         [DataType(DataType.Currency)]
         public decimal? Entrada { get; set; }

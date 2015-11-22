@@ -123,6 +123,10 @@
     <Compile Include="Migrations\201511161659479_AddAttrCliente.Designer.cs">
       <DependentUpon>201511161659479_AddAttrCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511222106230_addContacao.cs" />
+    <Compile Include="Migrations\201511222106230_addContacao.Designer.cs">
+      <DependentUpon>201511222106230_addContacao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -181,6 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201511161659479_AddAttrCliente.resx">
       <DependentUpon>201511161659479_AddAttrCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511222106230_addContacao.resx">
+      <DependentUpon>201511222106230_addContacao.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

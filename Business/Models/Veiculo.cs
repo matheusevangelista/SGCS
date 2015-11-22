@@ -24,7 +24,7 @@ namespace Business.Models
 
         [Display(Name = "Ano")]
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:yyyy}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime Ano { get; set; }
 
         [DataType(DataType.Text)]

@@ -7,8 +7,15 @@
 
     $.post("/api/Cotacao", { ClienteId: ClienteId, Modelo: Modelo, Ano: Ano, Tipo: Tipo }, function (data) {
 
+        $("#ValorCotacao").val(data);
+
         console.log(data);
 
     }, 'json');
 
+}
+
+var calculaParcelas = function () {
+
+    var valorCotacao = $("#ValorCotacao").val();
 }
