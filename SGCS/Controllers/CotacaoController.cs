@@ -41,7 +41,7 @@ namespace SGCS.Controllers
 
             //criar logica para gerar cotação de proposta
             Cliente cliente = db.Clientes.Find(int.Parse(Cotacao.ClienteId));
-            String ano = Cotacao.Ano;
+            String ano = Cotacao.Ano.Substring(0, 4);
 
             // Calculando a idade do cliente
             DateTime dataAtual = DateTime.Now;
