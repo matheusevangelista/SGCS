@@ -1,0 +1,4 @@
+D:\Projetos\dotnet\SGCS\Utils\bin\Debug\Utils.dll
+D:\Projetos\dotnet\SGCS\Utils\bin\Debug\Utils.pdb
+D:\Projetos\dotnet\SGCS\Utils\obj\Debug\Utils.dll
+D:\Projetos\dotnet\SGCS\Utils\obj\Debug\Utils.pdb

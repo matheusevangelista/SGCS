@@ -129,3 +129,5 @@ D:\Projetos\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addAttrVeiculoPro
 D:\Projetos\dotnet\SGCS\Services\obj\Debug\Services.Migrations.AddAttrCliente.resources
 D:\Projetos\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addContacao.resources
 C:\Users\matheus.evangelista\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addContacao.resources
+D:\Projetos\dotnet\SGCS\Services\bin\Debug\Utils.dll
+D:\Projetos\dotnet\SGCS\Services\bin\Debug\Utils.pdb

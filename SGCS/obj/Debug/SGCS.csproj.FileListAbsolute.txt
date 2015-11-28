@@ -338,3 +338,5 @@ D:\Projetos\dotnet\SGCS\SGCS\bin\System.Xml.Linq.dll
 D:\Projetos\dotnet\SGCS\SGCS\bin\System.Net.Http.Formatting.xml
 D:\Projetos\dotnet\SGCS\SGCS\bin\System.Web.Http.xml
 D:\Projetos\dotnet\SGCS\SGCS\bin\System.Web.Http.WebHost.xml
+D:\Projetos\dotnet\SGCS\SGCS\bin\Utils.dll
+D:\Projetos\dotnet\SGCS\SGCS\bin\Utils.pdb

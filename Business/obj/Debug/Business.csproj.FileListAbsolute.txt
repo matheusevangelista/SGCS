@@ -66,3 +66,5 @@ D:\Projetos\dotnet\SGCS\Business\bin\Debug\System.Data.dll
 D:\Projetos\dotnet\SGCS\Business\bin\Debug\System.dll
 D:\Projetos\dotnet\SGCS\Business\bin\Debug\System.Xml.dll
 D:\Projetos\dotnet\SGCS\Business\bin\Debug\System.Xml.Linq.dll
+D:\Projetos\dotnet\SGCS\Business\bin\Debug\Utils.dll
+D:\Projetos\dotnet\SGCS\Business\bin\Debug\Utils.pdb
