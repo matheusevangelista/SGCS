@@ -1,7 +1,5 @@
 ﻿using Business.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Services.DAL;
-using SGCS.Controllers;
 using System;
 using System.Linq;
 using System.Web.Mvc;
@@ -43,6 +41,16 @@ namespace UnitTestSGCS
 
             Assert.AreEqual(c, clienteFromDB);
 
+        }
+
+        [TestMethod]
+        public void testaValidacaoCPF()
+        {
+            Cliente c = new Cliente();
+
+            c.CPF = "123.456.789-21";
+
+            Assert.AreNotEqual(true, Utils.Validations.ValidaCPF(c.CPF));
         }
     }
 }
