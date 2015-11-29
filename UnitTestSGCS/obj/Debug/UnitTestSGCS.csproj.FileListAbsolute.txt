@@ -1,5 +1,0 @@
-D:\Projetos\dotnet\SGCS\UnitTestSGCS\bin\Debug\UnitTestSGCS.dll
-D:\Projetos\dotnet\SGCS\UnitTestSGCS\bin\Debug\UnitTestSGCS.pdb
-D:\Projetos\dotnet\SGCS\UnitTestSGCS\obj\Debug\UnitTestSGCS.dll
-D:\Projetos\dotnet\SGCS\UnitTestSGCS\obj\Debug\UnitTestSGCS.pdb
-D:\Projetos\dotnet\SGCS\UnitTestSGCS\obj\Debug\UnitTestSGCS.csprojResolveAssemblyReference.cache

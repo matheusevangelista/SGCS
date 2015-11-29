@@ -25,6 +25,7 @@ namespace Business.Models
         public string Nome { get; set; }
 
         [Display(Name = "CPF")]
+        [CustomValidation.CustomValidationCPF(ErrorMessage = "CPF inválido!")]
         public string CPF { get; set; }
 
         [Display(Name = "RG")]

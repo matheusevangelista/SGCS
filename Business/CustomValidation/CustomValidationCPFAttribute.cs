@@ -24,7 +24,7 @@ namespace Business.CustomValidation
         {
             yield return new ModelClientValidationRule
             {
-                ErrorMessage = this.FormatErrorMessage("CPF Inválido!"),
+                ErrorMessage = this.FormatErrorMessage(null),
                 ValidationType = "customvalidationcpf"
             };
         }

@@ -1,4 +1,10 @@
 D:\Projetos\dotnet\SGCS\Utils\bin\Debug\Utils.dll
 D:\Projetos\dotnet\SGCS\Utils\bin\Debug\Utils.pdb
+D:\Projetos\dotnet\SGCS\Utils\bin\Debug\Microsoft.CSharp.dll
+D:\Projetos\dotnet\SGCS\Utils\bin\Debug\System.Data.DataSetExtensions.dll
+D:\Projetos\dotnet\SGCS\Utils\bin\Debug\System.Data.dll
+D:\Projetos\dotnet\SGCS\Utils\bin\Debug\System.dll
+D:\Projetos\dotnet\SGCS\Utils\bin\Debug\System.Xml.dll
+D:\Projetos\dotnet\SGCS\Utils\bin\Debug\System.Xml.Linq.dll
 D:\Projetos\dotnet\SGCS\Utils\obj\Debug\Utils.dll
 D:\Projetos\dotnet\SGCS\Utils\obj\Debug\Utils.pdb

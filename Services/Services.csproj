@@ -127,6 +127,22 @@
     <Compile Include="Migrations\201511222106230_addContacao.Designer.cs">
       <DependentUpon>201511222106230_addContacao.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511291040524_validCPF.cs" />
+    <Compile Include="Migrations\201511291040524_validCPF.Designer.cs">
+      <DependentUpon>201511291040524_validCPF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511291053027_rmvCPFrequ.cs" />
+    <Compile Include="Migrations\201511291053027_rmvCPFrequ.Designer.cs">
+      <DependentUpon>201511291053027_rmvCPFrequ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511291059101_addrequicpf.cs" />
+    <Compile Include="Migrations\201511291059101_addrequicpf.Designer.cs">
+      <DependentUpon>201511291059101_addrequicpf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511291100447_rmvRequiCpf2.cs" />
+    <Compile Include="Migrations\201511291100447_rmvRequiCpf2.Designer.cs">
+      <DependentUpon>201511291100447_rmvRequiCpf2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -188,6 +204,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201511222106230_addContacao.resx">
       <DependentUpon>201511222106230_addContacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511291040524_validCPF.resx">
+      <DependentUpon>201511291040524_validCPF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511291053027_rmvCPFrequ.resx">
+      <DependentUpon>201511291053027_rmvCPFrequ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511291059101_addrequicpf.resx">
+      <DependentUpon>201511291059101_addrequicpf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511291100447_rmvRequiCpf2.resx">
+      <DependentUpon>201511291100447_rmvRequiCpf2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
