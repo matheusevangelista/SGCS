@@ -13,5 +13,8 @@ namespace UnitTestSGCS.DAL
         public List<Filial> filial = new List<Filial>();
         public List<Produto> produto = new List<Produto>();
         public List<Seguradora> seguradoras = new List<Seguradora>();
+        public List<Apolice> apolice = new List<Apolice>();
+        public List<Veiculo> veiculo = new List<Veiculo>();
+        public List<Proposta> propostas = new List<Proposta>();
     }
 }

@@ -9,3 +9,13 @@ D:\Projetos\dotnet\SGCS\Utils\bin\Debug\System.Xml.Linq.dll
 D:\Projetos\dotnet\SGCS\Utils\obj\Debug\Utils.dll
 D:\Projetos\dotnet\SGCS\Utils\obj\Debug\Utils.pdb
 D:\Projetos\dotnet\SGCS\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
+C:\dotnet\SGCS\Utils\bin\Debug\Utils.dll
+C:\dotnet\SGCS\Utils\bin\Debug\Utils.pdb
+C:\dotnet\SGCS\Utils\bin\Debug\Microsoft.CSharp.dll
+C:\dotnet\SGCS\Utils\bin\Debug\System.Data.DataSetExtensions.dll
+C:\dotnet\SGCS\Utils\bin\Debug\System.Data.dll
+C:\dotnet\SGCS\Utils\bin\Debug\System.dll
+C:\dotnet\SGCS\Utils\bin\Debug\System.Xml.dll
+C:\dotnet\SGCS\Utils\bin\Debug\System.Xml.Linq.dll
+C:\dotnet\SGCS\Utils\obj\Debug\Utils.dll
+C:\dotnet\SGCS\Utils\obj\Debug\Utils.pdb

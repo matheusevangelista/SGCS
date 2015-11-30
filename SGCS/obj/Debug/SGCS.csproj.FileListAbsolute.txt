@@ -340,3 +340,5 @@ D:\Projetos\dotnet\SGCS\SGCS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\Projetos\dotnet\SGCS\SGCS\obj\Debug\SGCS.csprojResolveAssemblyReference.cache
 D:\Projetos\dotnet\SGCS\SGCS\obj\Debug\SGCS.dll
 D:\Projetos\dotnet\SGCS\SGCS\obj\Debug\SGCS.pdb
+C:\dotnet\SGCS\SGCS\bin\Utils.dll
+C:\dotnet\SGCS\SGCS\bin\Utils.pdb

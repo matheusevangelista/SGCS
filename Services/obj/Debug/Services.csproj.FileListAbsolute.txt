@@ -135,3 +135,15 @@ D:\Projetos\dotnet\SGCS\Services\obj\Debug\Services.Migrations.rmvRequiCpf2.reso
 D:\Projetos\dotnet\SGCS\Services\obj\Debug\Services.csproj.GenerateResource.Cache
 D:\Projetos\dotnet\SGCS\Services\obj\Debug\Services.dll
 D:\Projetos\dotnet\SGCS\Services\obj\Debug\Services.pdb
+C:\dotnet\SGCS\Services\bin\Debug\Utils.dll
+C:\dotnet\SGCS\Services\bin\Debug\Utils.pdb
+C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addPropostaInApolice.resources
+C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.changeTypeAttr.resources
+C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addAttrVeiculoProposta.resources
+C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addAttrVeiculoProposta2.resources
+C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.AddAttrCliente.resources
+C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addContacao.resources
+C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.validCPF.resources
+C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.rmvCPFrequ.resources
+C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.addrequicpf.resources
+C:\dotnet\SGCS\Services\obj\Debug\Services.Migrations.rmvRequiCpf2.resources

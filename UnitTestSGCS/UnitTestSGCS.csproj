@@ -94,12 +94,14 @@
   </Choose>
   <ItemGroup>
     <Compile Include="DAL\TestDBContext.cs" />
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitTestApolice.cs" />
     <Compile Include="UnitTestCliente.cs" />
     <Compile Include="UnitTestFilial.cs" />
     <Compile Include="UnitTestProduto.cs" />
+    <Compile Include="UnitTestProposta.cs" />
     <Compile Include="UnitTestSeguradora.cs" />
+    <Compile Include="UnitTestVeiculo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Business\Business.csproj">
