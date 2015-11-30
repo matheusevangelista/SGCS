@@ -98,6 +98,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitTestCliente.cs" />
     <Compile Include="UnitTestFilial.cs" />
+    <Compile Include="UnitTestProduto.cs" />
+    <Compile Include="UnitTestSeguradora.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Business\Business.csproj">
